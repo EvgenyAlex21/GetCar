@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GetCar</string>
+
+    <!-- Кнопки -->
+    <string name="btn_rent">Арендовать</string>
+    <string name="btn_ok">ОК</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_confirm">Подтвердить</string>
+    <string name="btn_add_car">Добавить авто</string>
+    <string name="btn_complete">Завершить</string>
+    <string name="btn_pick_date">Выбрать дату</string>
+    <string name="btn_pick_time">Выбрать время</string>
+
+    <!-- Вкладки -->
+    <string name="tab_cars">Автомобили</string>
+    <string name="tab_rentals">Мои аренды</string>
+
+    <!-- Навигация -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_rentals">Аренды</string>
+    <string name="nav_search">Поиск</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Описания контента -->
+    <string name="cd_add_car">Добавить автомобиль</string>
+    <string name="location_icon">Иконка местоположения</string>
+    <string name="fuel_icon">Иконка топлива</string>
+
+    <!-- Информация об автомобиле -->
+    <string name="car_full_name">%1$s %2$s</string>
+    <string name="car_type_year">%1$s • %2$d</string>
+    <string name="car_color_seats">%1$s • %2$d мест</string>
+    <string name="car_location">%1$s</string>
+    <string name="car_fuel_level">Топливо: %.0f%%</string>
+    <string name="car_license_plate">%1$s</string>
+
+    <!-- Статусы -->
+    <string name="car_available">Доступен</string>
+    <string name="car_unavailable">Занят</string>
+
+    <!-- Детали автомобиля -->
+    <string name="detail_year">Год: %1$d</string>
+    <string name="detail_type">Тип: %1$s</string>
+    <string name="detail_color">Цвет: %1$s</string>
+    <string name="detail_license">Госномер: %1$s</string>
+    <string name="detail_location">Местоположение: %1$s</string>
+    <string name="detail_seats">Мест: %1$d</string>
+    <string name="detail_fuel">Топливо: %.0f%%</string>
+    <string name="detail_price">Цена: %.0f ₽/час, %.0f ₽/день</string>
+    <string name="detail_status_available">Статус: Доступен</string>
+    <string name="detail_status_unavailable">Статус: Занят</string>
+
+    <!-- Фильтры -->
+    <string name="filter_all_types">Все типы</string>
+    <string name="filter_economy">Эконом</string>
+    <string name="filter_comfort">Комфорт</string>
+    <string name="filter_premium">Премиум</string>
+
+    <!-- Аренда -->
+    <string name="rental_car_info">%1$s %2$s (%3$s)</string>
+    <string name="rental_user_info">Пользователь: %1$s (%2$s)</string>
+    <string name="rental_start_time">Начало: %1$s</string>
+    <string name="rental_end_time">Конец: %1$s</string>
+    <string name="rental_total_price">Стоимость: %.2f ₽</string>
+    <string name="rental_pickup_location">Место получения: %1$s</string>
+    <string name="rental_status_active">Активна</string>
+    <string name="rental_status_completed">Завершена</string>
+    <string name="rental_status_cancelled">Отменена</string>
+
+    <!-- Сообщения -->
+    <string name="msg_car_added">Автомобиль добавлен</string>
+    <string name="msg_car_add_error">Ошибка добавления автомобиля</string>
+    <string name="msg_check_data">Проверьте введенные данные</string>
+    <string name="msg_end_time_error">Время окончания должно быть позже времени начала</string>
+    <string name="msg_rental_success">Аренда оформлена успешно!</string>
+    <string name="msg_rental_error">Ошибка оформления аренды</string>
+    <string name="msg_rental_completed">Аренда завершена</string>
+    <string name="msg_rental_cancelled">Аренда отменена</string>
+
+    <!-- Диалоги -->
+    <string name="dialog_complete_rental">Завершить аренду</string>
+    <string name="dialog_complete_message">Вы уверены, что хотите завершить аренду?</string>
+    <string name="dialog_cancel_rental">Отменить аренду</string>
+    <string name="dialog_cancel_message">Вы уверены, что хотите отменить аренду?</string>
+    <string name="dialog_add_car_title">Добавить автомобиль</string>
+    <string name="dialog_rent_title">Оформление аренды</string>
+
+    <!-- Подсказки для полей ввода -->
+    <string name="hint_user_name">Имя пользователя</string>
+    <string name="hint_user_phone">Телефон</string>
+
+    <!-- Метки для полей -->
+    <string name="label_start_time">Время начала</string>
+    <string name="label_end_time">Время окончания</string>
+    <string name="select_start_datetime">Выберите дату и время начала</string>
+    <string name="select_end_datetime">Выберите дату и время окончания</string>
+
+    <!-- Фильтры и интерфейс -->
+    <string name="filter_title">Фильтр автомобилей</string>
+    <string name="filter_type_label">Тип:</string>
+    <string name="btn_find">Найти</string>
+    <string name="btn_show_all">Показать все автомобили</string>
+    <string name="empty_message">Нет доступных данных</string>
+
+    <!-- Расчет цены -->
+    <string name="calculated_price">Итого: %.2f ₽</string>
+    <string name="duration_days_hours">%1$d дн. %2$d ч.</string>
+    <string name="duration_hours">%1$d ч.</string>
+</resources>

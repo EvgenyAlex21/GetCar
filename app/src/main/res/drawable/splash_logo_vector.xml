@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Фон круга -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0" />
+
+    <!-- Кузов автомобиля (верхняя часть - кабина) -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M70,85 L75,70 L125,70 L130,85 Z" />
+
+    <!-- Кузов автомобиля (основная часть) -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M60,85 L140,85 L140,115 L60,115 Z" />
+
+    <!-- Левое окно -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M80,75 L90,80 L90,85 L80,85 Z" />
+
+    <!-- Правое окно -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M110,75 L120,80 L120,85 L110,85 Z" />
+
+    <!-- Левое переднее окно (фара) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M65,90 L70,90 L70,100 L65,100 Z" />
+
+    <!-- Правое переднее окно (фара) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M130,90 L135,90 L135,100 L130,100 Z" />
+
+    <!-- Левое колесо (внешняя часть) -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M75,115m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+
+    <!-- Правое колесо (внешняя часть) -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M125,115m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+
+    <!-- Левое колесо (центр) -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M75,115m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+
+    <!-- Правое колесо (центр) -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M125,115m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>

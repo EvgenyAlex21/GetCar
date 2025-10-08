@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Мой профиль"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Поиск"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_statistics"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Статистика"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_view_all_cars"
+        android:title="Все автомобили"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_switch_account"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Сменить аккаунт"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Выход"
+        app:showAsAction="never" />
+</menu>
